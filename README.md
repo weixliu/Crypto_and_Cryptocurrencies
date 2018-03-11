@@ -3,7 +3,7 @@ https://www.coursera.org/learn/cryptocurrency/home/welcome
 
 ## Programming Assignment: Scrooge Coin
 
-83/100 ( Should continue improving this )
+95/100 ( Should continue improving this )
 
 ```
 Running 15 tests
@@ -71,9 +71,8 @@ Number of transactions returned valid by student = 2
 Total Transactions = 50
 Number of transactions returned valid by student = 26
 Total Transactions = 100
-Number of transactions returned valid by student = 81
-Returned set is not a maximal set of transactions
-==> FAILED
+Number of transactions returned valid by student = 83
+==> passed
 
 Test 13: test handleTransactions() with valid and simple but some transactions take inputs from non-exisiting utxo's
 Total Transactions = 2
@@ -99,11 +98,10 @@ Number of transactions returned valid by student = 2
 Total Transactions = 50
 Number of transactions returned valid by student = 48
 Total Transactions = 100
-Number of transactions returned valid by student = 52
-Returned set is not a maximal set of transactions
-==> FAILED
+Number of transactions returned valid by student = 53
+==> passed
 
 
-Total:13/15 tests passed!
+Total:15/15 tests passed!
 ```
 
