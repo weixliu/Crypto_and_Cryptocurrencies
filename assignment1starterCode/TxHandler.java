@@ -55,7 +55,7 @@ public class TxHandler {
         }
         //(4)
         for (Transaction.Output txOutput : tx.getOutputs()) {
-            if (!(txOutput.value > 0)) {
+            if (!(txOutput.value >= 0)) {
                 return false;
             }
         }
